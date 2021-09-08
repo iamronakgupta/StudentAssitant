@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Student Assitant</string>
+    <string name="class_schedule">Class Schedule</string>
+    <string name="links">Links</string>
+    <string name="upcoming_classes">Upcoming Classes</string>
+    <string name="pending_assignments">Pending Assignments</string>
+    <string name="ronak_gupta">Ronak Gupta</string>
+    <string name="b_tech_cse">B-tech CSE</string>
+    <string name="skit">Swami Keshvanand Institute of Technology Management and Gramothan</string>
+    <string name="subjects">Subjects</string>
+    <string name="profile_photo_of_user">Profile Photo Of User</string>
+    <string name="engineering_mathematics">Engineering Mathematics</string>
+    <string name="sumit_gupta">Sumit Gupta</string>
+    <string name="list">List</string>
+    <string name="assignments">Assignments</string>
+    <string name="fab_content_desc">Add Subject</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="profile">Profile</string>
+    <string name="today">Today</string>
+    <string name="cisco_webex">Cisco Webex</string>
+    <string name="link">https://skitjaipur.webex.com/skitjaipur/onstage/g.php?MTID=e2076ec4d18bc7a2fe347cb2538cf5209</string>
+    <string name="student_assitant">Student Assitant</string>
+
+</resources>

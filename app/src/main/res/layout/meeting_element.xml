@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginStart="10dp">
+
+
+        <TextView
+            android:id="@+id/meeting_link_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/engineering_mathematics"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="@font/robotocondensed_bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/platform_name"
+            app:layout_constraintTop_toBottomOf="@+id/meeting_link_subject"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/cisco_webex"
+            />
+        <TextView
+            android:layout_marginEnd="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/meeting_link"
+            app:layout_constraintTop_toBottomOf="@+id/platform_name"
+            android:text="@string/link"
+            style="@style/TextAppearance.AppCompat.Body1"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/webex_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/meeting_link_subject"
+            app:layout_constraintBottom_toBottomOf="@+id/meeting_link"/>
+
+        <View
+            app:layout_constraintTop_toBottomOf="@+id/meeting_link"
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#9F4C4C4C"
+            android:layout_marginTop="20dp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
