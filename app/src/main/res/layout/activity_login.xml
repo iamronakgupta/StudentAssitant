@@ -30,14 +30,26 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topBarLayout"
-        app:cardCornerRadius="20dp"
+        app:cardCornerRadius="10dp"
         android:layout_marginHorizontal="10dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:background="@drawable/tracker_back"
-            >
-
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/management_is_important"
+                style="@style/OptionsStyle"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

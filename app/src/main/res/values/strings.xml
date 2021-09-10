@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Student Assitant</string>
+    <string name="app_name">Student Assistant</string>
     <string name="class_schedule">Class Schedule</string>
     <string name="links">Links</string>
     <string name="upcoming_classes">Upcoming Classes</string>
@@ -19,6 +19,10 @@
     <string name="today">Today</string>
     <string name="cisco_webex">Cisco Webex</string>
     <string name="link">https://skitjaipur.webex.com/skitjaipur/onstage/g.php?MTID=e2076ec4d18bc7a2fe347cb2538cf5209</string>
-    <string name="student_assitant">Student Assitant</string>
+    <string name="student_assitant">Student Assistant</string>
+    <string name="management_is_important">Management is Important</string>
+
+    <string name="signIn_failed">SignIn Failed!!! Retry</string>
+    <string name="name">Name</string>
 
 </resources>

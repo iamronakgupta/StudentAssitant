@@ -46,6 +46,7 @@
 
 
         <ImageView
+            android:id="@+id/profile_Photo"
             android:contentDescription="@string/profile_photo_of_user"
             android:layout_width="150dp"
             android:layout_height="150dp"
@@ -58,7 +59,7 @@
             android:id="@+id/profile_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ronak_gupta"
+            android:text="@string/name"
             android:layout_gravity="center"
             android:fontFamily="@font/robotocondensed_bold"
             android:textColor="@color/purple_500"/>

@@ -20,6 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:title="@string/app_name"
+            app:titleTextColor="#fff"
             app:menu="@menu/top_app_bar"
             app:navigationIcon="@drawable/ic_outline_account_circle_24"
             style="@style/Widget.App.Toolbar"
@@ -93,7 +94,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/links"
                         android:textColor="#fff"
-                        android:textAppearance="?attr/textAppearanceBody2"
+                        style="@style/SubOptionsStyle"
                         />
                 </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -126,7 +127,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/list"
                             android:textColor="#fff"
-                            android:textAppearance="?attr/textAppearanceBody2"
+                            style="@style/SubOptionsStyle"
                             />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
